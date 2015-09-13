@@ -40,7 +40,7 @@ metadata {
 	}
 
 	tiles {
-		standardTile("Nest Thermostat", "device.myDeviceIcon", canChangeIcon: true)
+		standardTile("nest", "device.myDeviceIcon", canChangeIcon: true)
 		{
 		    state "default", label: "", action: "refresh"
 		}
