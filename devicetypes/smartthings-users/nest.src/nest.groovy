@@ -40,7 +40,10 @@ metadata {
 	}
 
 	tiles {
-		// TODO: define your main and details tiles here
+		standardTile("Nest Thermostat", "device.myDeviceIcon", canChangeIcon: true)
+		{
+		    state "default", label: "", action: "refresh"
+		}
 	}
 }
 
