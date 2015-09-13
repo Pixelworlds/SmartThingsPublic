@@ -40,10 +40,7 @@ metadata {
 	}
 
 	tiles {
-		standardTile("nest", "device.myDeviceIcon", canChangeIcon: true)
-		{
-		    state "default", label: "", action: "refresh"
-		}
+
 	}
 }
 
