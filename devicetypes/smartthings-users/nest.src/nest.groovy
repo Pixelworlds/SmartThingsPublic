@@ -40,7 +40,7 @@ metadata {
 	}
 
 	tiles {
-
+		// TODO: define your main and details tiles here
 	}
 }
 
